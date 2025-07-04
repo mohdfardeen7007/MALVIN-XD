@@ -38,7 +38,7 @@ malvin({
 
         // Final response
         await conn.sendMessage(from, {
-            text: `> *ᴍᴀʟᴠɪɴ-xᴅ ʀᴇsᴘᴏɴsᴇ: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴠᴇʀsɪᴏɴ: ${config.version}*`,
+            text: `> *Felix Response: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴠᴇʀsɪᴏɴ: ${config.version}*`,
             contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
